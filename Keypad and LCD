@@ -10,3 +10,10 @@ int dist, initdist ,curdist ,i;
 int scrofMsg=0;
 String pass="3001";
 String temppass;
+boolean active = false;  //Alarm State
+boolean isactive;
+boolean activateAlarm = false;
+boolean alarmactive=false;
+boolean enteredpass;    //State of the  entered password to stop the alarm
+boolean passchngmode=false;
+boolean passchngd = false;
