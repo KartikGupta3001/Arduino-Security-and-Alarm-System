@@ -1,1 +1,12 @@
+#include<LiquidCrystal.h>    //includes LCD library
+#include<Keypad.h>            // includes Keypad Library
 
+#Define trigpin 8
+#Define buzzer 9
+#Define echopin 10
+
+long dur;
+int dist, initdist ,curdist ,i;
+int scrofMsg=0;
+String pass="3001";
+String temppass;
