@@ -17,3 +17,16 @@ boolean alarmactive=false;
 boolean enteredpass;    //State of the  entered password to stop the alarm
 boolean passchngmode=false;
 boolean passchngd = false;
+
+const byte rows=4;  //Four Rows
+const byte colmn=4;  //Four Columns
+char keypress;
+ // Now defining symbols on the buttons of Keypads
+ char keymap[rows][colmn]={ {'1','2','3','A'},
+                            {'4','5','6','B'},
+                            {'7','8','9','C'},
+                            {'*','0','#','D'}
+                           };
+byte pincolmn[colmn]={14,15,16,17};    //Coulmn Pin Layout
+byte pinrow[rows]={18,19,20,21};       //Row Pin Layout                  
+                           
