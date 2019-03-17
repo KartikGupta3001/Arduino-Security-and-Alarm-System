@@ -36,3 +36,6 @@ void setup()
 {
 lcd.begin(16,2);
 pinMode(buzzer,OUTPUT);  //Setting Buzzzer as Output
+pinMode(echopin,INPUT);  //Setting EchoPin as Input
+pinMode(trigpin,OUTPUT);  //Setting TrigPin as Output
+}
