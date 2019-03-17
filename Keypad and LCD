@@ -33,3 +33,6 @@ Keypad mykey=Keypad(makeKeymap(keymap),pinrow,pincolmn,rows,colmn);
 LiquidCrystal lcd(1, 2, 4, 5, 6, 7); // Creates an LC object. Parameters: (rs, enable, d4, d5, d6, d7)
 
 void setup()
+{
+lcd.begin(16,2);
+pinMode(buzzer,OUTPUT);  //Setting Buzzzer as Output
