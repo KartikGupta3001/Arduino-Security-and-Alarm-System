@@ -1,1 +1,2 @@
-if(!alarm
+if(!alarmactive)
+{
