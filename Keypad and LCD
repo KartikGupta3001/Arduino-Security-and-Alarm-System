@@ -29,4 +29,4 @@ char keypress;
                            };
 byte pincolmn[colmn]={14,15,16,17};    //Coulmn Pin Layout
 byte pinrow[rows]={18,19,20,21};       //Row Pin Layout                  
-                           
+Keypad mykey=Keypad(makeKeymap(keymap),pinrow,pincolmn,rows,colmn);                     
