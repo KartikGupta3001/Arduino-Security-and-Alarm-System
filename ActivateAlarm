@@ -10,6 +10,9 @@ if(!alarmactive)
       scrofMsg=1;
     }
     keypress= mykey.getKey();
-        if(keypress=='A')                      // Activate alarm if A is pressed
-        {
+    if(keypress=='A')                      // Activate alarm if A is pressed
+    {
+        tone(buzzer,1000,2000);
+        activateAlarm = true;
+     }
             
