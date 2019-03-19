@@ -12,7 +12,7 @@ if(!alarmactive)
     keypress= mykey.getKey();
     if(keypress=='A')                      // Activate alarm if A is pressed
     {
-        tone(buzzer,1000,2000);
+        tone(buzzer,1000,200);
         activateAlarm = true;
      }
             
