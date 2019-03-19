@@ -9,3 +9,7 @@ if(!alarmactive)
       lcd.print("B - Change Password");
       scrofMsg=1;
     }
+    keypress= mykey.getKey();
+        if(keypress=='A')                      // Activate alarm if A is pressed
+        {
+            
