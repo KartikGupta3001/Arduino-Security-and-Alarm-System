@@ -1,2 +1,6 @@
 if(!alarmactive)
 {
+    if(scrofMsg==0)
+    {
+      lcd.clear();
+      lcd.
