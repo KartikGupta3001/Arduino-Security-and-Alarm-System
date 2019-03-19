@@ -4,4 +4,6 @@ if(!alarmactive)
     {
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print
+      lcd.print("A - Activate");
+      lcd.setCursor(0,1);
+      lcd.print(
