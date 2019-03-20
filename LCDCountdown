@@ -1,1 +1,3 @@
-
+if(activateAlarm)
+{
+  lcd.clear();
