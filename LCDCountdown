@@ -3,4 +3,7 @@ if(activateAlarm)
   lcd.clear();
   lcd.setCursor(0,0);
   lcd.print("Alarm will be");
+  lcd.setCursor(0,1);
+  lcd.print("activated in");
   
+  int countdownn
