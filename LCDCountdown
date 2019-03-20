@@ -6,4 +6,5 @@ if(activateAlarm)
   lcd.setCursor(0,1);
   lcd.print("activated in");
   
-  int countdownn
+  int cntdwn=9;                //Alarm is activated after 9 seconds Countdown
+  
