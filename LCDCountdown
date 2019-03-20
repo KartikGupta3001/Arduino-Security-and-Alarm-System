@@ -1,3 +1,4 @@
 if(activateAlarm)
 {
   lcd.clear();
+  lcd.setCursor(0,0);
