@@ -12,4 +12,6 @@ if(activateAlarm)
     lcd.setCursor(13,1);
     lcd.print(cntdwn);
     cntdwn--;
-    
+    tone(buzzer, 700, 100);
+      
+
