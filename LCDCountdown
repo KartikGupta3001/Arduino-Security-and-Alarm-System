@@ -13,5 +13,5 @@ if(activateAlarm)
     lcd.print(cntdwn);
     cntdwn--;
     tone(buzzer, 700, 100);
-      
+    delay(1000);  
 
