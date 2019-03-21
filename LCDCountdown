@@ -10,4 +10,5 @@ if(activateAlarm)
   while(cntdwn!=0)
   {
     lcd.setCursor(13,1);
-
+    lcd.print(cntdwn);
+      
