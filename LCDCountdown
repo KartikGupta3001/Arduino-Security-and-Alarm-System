@@ -18,4 +18,6 @@ if(activateAlarm)
   lcd.clear();
   lcd.setCursor(0,0);
   lcd.print("Alarm Activated!");
+  initialDistance = getDistance();
     
+   
