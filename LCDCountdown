@@ -20,4 +20,5 @@ if(activateAlarm)
   lcd.print("Alarm Activated!");
   initdist = getDistance();
   activateAlarm = false;
-    
+  alarmactive = true;
+}
