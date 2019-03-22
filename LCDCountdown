@@ -15,4 +15,5 @@ if(activateAlarm)
     tone(buzzer, 700, 100);
     delay(1000);  
   }
-  
+  lcd.clear();
+    
