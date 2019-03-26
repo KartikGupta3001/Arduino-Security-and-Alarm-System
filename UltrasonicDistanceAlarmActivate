@@ -3,4 +3,4 @@ if (alarmactive == true)
   curdist = getDistance() + 10;
   if ( curdist < initdist) 
   {
-    tone(buzzer
+    tone(buzzer, 1000);
