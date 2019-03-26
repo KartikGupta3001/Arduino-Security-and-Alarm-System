@@ -1,2 +1,3 @@
 if (alarmactive == true)
 {
+  curdist = getDistance() + 10;
