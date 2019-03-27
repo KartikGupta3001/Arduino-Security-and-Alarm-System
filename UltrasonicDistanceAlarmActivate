@@ -6,4 +6,5 @@ if (alarmactive == true)
     tone(buzzer, 1000);   // Sends 1 kHz Signal Sound
     lcd.clear();
     enterPassword();
-    
+  }
+}    
