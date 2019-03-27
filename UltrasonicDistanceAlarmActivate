@@ -3,4 +3,5 @@ if (alarmactive == true)
   curdist = getDistance() + 10;
   if ( curdist < initdist) 
   {
-    tone(buzzer, 1000);
+    tone(buzzer, 1000);   // Sends 1 kHz Signal Sound
+   
