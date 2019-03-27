@@ -4,4 +4,4 @@ if (alarmactive == true)
   if ( curdist < initdist) 
   {
     tone(buzzer, 1000);   // Sends 1 kHz Signal Sound
-   
+    lcd.clear();
