@@ -2,5 +2,5 @@ else if (keypress =='B')
 {
   lcd.clear();
   int i=1;
-
+  tone(buzzer, 2500, 200);
  
