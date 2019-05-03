@@ -1,4 +1,6 @@
 else if (keypress =='B')
 {
   lcd.clear();
+  int i=1;
+
  
