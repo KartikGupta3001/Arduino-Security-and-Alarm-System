@@ -6,5 +6,5 @@ else if (keypress =='B')
   tempPassword = "";
   lcd.setCursor(0,0);
   lcd.print(" Current Password ");
-  lcd.setCursor(0,1)
-  
+  lcd.setCursor(0,1);
+  lcd.print(" >> ");
