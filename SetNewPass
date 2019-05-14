@@ -8,3 +8,4 @@ else if (keypress =='B')
   lcd.print(" Current Password ");
   lcd.setCursor(0,1);
   lcd.print(" >> ");
+  passChangeMode = true;
