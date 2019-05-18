@@ -10,3 +10,4 @@ else if (keypress =='B')
   lcd.print(" >> ");
   passChangeMode = true;
   passChanged = true;
+  while(passChanged)
