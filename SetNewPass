@@ -14,3 +14,4 @@ else if (keypress =='B')
   {
   keypress = mykey.getKey();
   if (keypress != NO KEY)
+  {
