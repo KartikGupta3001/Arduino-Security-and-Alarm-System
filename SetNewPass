@@ -15,6 +15,6 @@ else if (keypress =='B')
   keypress = mykey.getKey();
   if (keypress != NO KEY)
   {
-   if (keypress == '0' || keypress == '1' || keypress == '2' || keypressed == '3' ||
+   if (keypress == '0' || keypress == '1' || keypress == '2' || keypress == '3' ||
             keypressed == '4' || keypressed == '5' || keypressed == '6' || keypressed == '7' ||
             keypressed == '8' || keypressed == '9' )
