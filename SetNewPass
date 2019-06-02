@@ -15,11 +15,14 @@ else if (keypress =='B')
   keypress = mykey.getKey();
   if (keypress != NO KEY)
   {
-   if (keypress == '0' || keypress == '1' || keypress == '2' || keypress == '3' ||
+     if (keypress == '0' || keypress == '1' || keypress == '2' || keypress == '3' ||
             keypress == '4' || keypress == '5' || keypress == '6' || keypress == '7' ||
             keypress == '8' || keypress == '9' )
-    tempPassword += keypress;
-    lcd.setCursor(i,1);
-    lcd.print("**");
-    i++;
-    
+     {
+       tempPassword += keypress;
+       lcd.setCursor(i,1);
+       lcd.print("**");
+       i++;
+       tone(buzzer, 2000, 100);
+     }
+  }
