@@ -18,3 +18,4 @@ else if (keypress =='B')
    if (keypress == '0' || keypress == '1' || keypress == '2' || keypress == '3' ||
             keypress == '4' || keypress == '5' || keypress == '6' || keypress == '7' ||
             keypress == '8' || keypress == '9' )
+    tempPassword += keypress;
