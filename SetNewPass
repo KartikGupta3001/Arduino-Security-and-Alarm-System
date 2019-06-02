@@ -21,4 +21,5 @@ else if (keypress =='B')
     tempPassword += keypress;
     lcd.setCursor(i,1);
     lcd.print("**");
+    i++;
     
