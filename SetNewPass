@@ -33,3 +33,5 @@ else if (keypress =='B')
       lcd.clear();
       lcd.setCursor(0,0);
       lcd.print("Current Pass");
+      lcd.setCursor(0,1);
+      
