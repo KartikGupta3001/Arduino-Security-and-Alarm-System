@@ -29,3 +29,6 @@ else if (keypress =='B')
   if (i > 5 || keypress == '#')
     {
       tempPassword = "";
+      i=1;
+      lcd.clear();
+      
