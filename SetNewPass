@@ -26,3 +26,6 @@ else if (keypress =='B')
        tone(buzzer, 2000, 100);
      }
   }
+  if (i > 5 || keypress == '#')
+    {
+      tempPassword = "";
