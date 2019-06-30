@@ -41,5 +41,5 @@ else if (keypress =='B')
     {
         i=1;
         tone(buzzer, 2000, 100);
-        if (password == tempPassword)
+        if (pass == tempPassword)
         {
