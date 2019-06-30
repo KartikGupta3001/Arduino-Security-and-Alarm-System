@@ -38,4 +38,5 @@ else if (keypress =='B')
     }
   if ( keypress == '**')
   {
-  
+    {
+        i=1;
