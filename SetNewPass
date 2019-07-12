@@ -38,8 +38,9 @@ else if (keypress =='B')
     }
   if ( keypress == '**')
   {
-    {
         i=1;
         tone(buzzer, 2000, 100);
         if (pass == tempPassword)
         {
+          tempPassword="";
+          
