@@ -44,3 +44,5 @@ else if (keypress =='B')
         {
           tempPassword="";
           lcd.clear();
+          lcd.setCursor(0,0);
+          
